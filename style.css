@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgreen;
+  height: 40px; 
+}
+
+form {
+  position:absolute;
+  right: 55px;
+
+
+}
+#left-bar {
+  background-color: aquamarine;
+  position: absolute;
+  width: 140px;
+  height: calc(100% - 40px);
+}
+
+#right-bar {
+  background-color: aquamarine;
+  position: absolute;
+  width: 140px;
+  height: calc(100% - 40px);
+  
+  right: 0px;
+}
+    
+h1 {
+  text-align: center;
+}
+
+.horizontal-line {
+  width: 70%;
+  height: 4px;
+  background-color: blue;
+  margin: 0 15% 0 15%;
+  border-radius: 2px;
+}
+
+#Профиль {
+  background-color: chartreuse;
+  height:150px;
+}
+
+#Профиль img {
+  position: relative;
+  left: 70px;
+  top: 100px;
+}
+
+#amount {
+  position: relative;
+  left: 200px;
+  top: 10px;
+}
+
+#describe {
+  position: absolute;
+  right: 80px;
+  top: 200px;
+  font-size:15px;
+}
+
+#channel-name {
+  position: relative;
+  left: 200px;
+  font-size: 25px;
+}
